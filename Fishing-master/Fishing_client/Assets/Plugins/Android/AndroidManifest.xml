@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.doule.buyu"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+     <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    
+    <application android:allowBackup="true">
+        <activity
+            android:name="com.doule.buyu.DouleBuyuPayActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+            android:label="逗乐捕鱼3D"
+            android:icon="@drawable/ic_launcher"  
+            android:screenOrientation="portrait" >
+          
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
+        <!-- 微支付SDK界面 -->
+        <!-- 登录界面 -->
+        <activity
+            android:name="com.iapppay.account.channel.ipay.ui.LoginActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleTask" >
+        </activity>
+        <!-- 注册界面 -->
+        <activity
+            android:name="com.iapppay.account.channel.ipay.ui.RegistActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleTask" >
+        </activity>
+        <!-- 注册界面 》设置登录支付密码 -->
+        <activity
+            android:name="com.iapppay.account.channel.ipay.ui.RegSetPwdActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleTask" >
+        </activity>
+        <!-- 显示网页界面 -->
+        <activity
+            android:name="com.iapppay.account.channel.ipay.ui.WebActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name="com.iapppay.ui.activity.AccountCheckPasswordActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection" 
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.iapppay.pay.channel.weixinpay.WeixinWapPayActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.iapppay.ui.activity.AccountModifyPasswordActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"  />
+        <activity
+            android:name="com.iapppay.ui.activity.AccountSmallAmountPasswordActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"  />
+        <activity
+            android:name="com.iapppay.ui.activity.AccountSmallAmountValueActivty"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"  />
+        <activity
+            android:name="com.iapppay.ui.activity.ServiceCenterActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection" 
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.iapppay.ui.activity.AccountBindActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection" 
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.iapppay.fastpay.ui.InputBankCarNoActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.iapppay.fastpay.ui.InputBankCarMoreInfoActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.iapppay.fastpay.ui.VerificationCodeActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleTask" >
+        </activity>
+        <activity android:name="com.iapppay.fastpay.ui.CommonWebActivity" 
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <!-- 收银台-普通 -->
+        <activity
+            android:name="com.iapppay.ui.activity.normalpay.PayHubActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        
+        <!-- 收银台-爱贝快付 -->
+        <activity
+            android:name="com.iapppay.ui.activity.minipay.MiniPayHubActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <!-- 收银台-爱贝币 -->
+        <activity
+            android:name="com.iapppay.ui.activity.iapppay.IAppPayHubActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+
+        <!-- 选择充值金额界面 -->
+        <activity
+            android:name="com.iapppay.ui.activity.SelectAmountActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.iapppay.ui.activity.minipay.BankCardActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"  />
+        <activity
+            android:name="com.iapppay.ui.activity.normalpay.ChargeActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleTask" >
+        </activity>
+        <!-- 游戏卡和话费卡界面 -->
+        <activity
+            android:name="com.iapppay.pay.channel.gamepay.GamepayActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" 
+            android:launchMode="singleTask" >
+        </activity>
+        <!-- 银联支付结果返回 -->
+        <activity
+            android:name="com.iapppay.pay.channel.unionpay.UpPayResultActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- 银联3.1.0 start -->
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait" />
+        <!-- 银联3.1.0 end -->
+        
+        <!-- alipay sdk begin (新的支付宝) -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <!-- alipay sdk end -->
+
+		<!-- 财付通wap start-->
+		<activity
+            android:name="com.iapppay.pay.channel.tenpay.wap.TenpayWapPayActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.iapppay.pay.channel.tenpay.wap.WebActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!-- 财付通wap end-->
+
+		<!-- 易联2.0支付结果返回start -->
+        <activity
+            android:name="com.iapppay.pay.channel.ecopay2.EcoPay2ResultActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent" />
+		<!-- 易联2.0支付结果返回end -->
+		
+        <!--易联2.0 start 插件入口界面 -->
+        <activity
+            android:name="com.payeco.android.plugin.PayecoPluginLoadingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <!-- 插件拍照界面 -->
+        <activity
+            android:name="com.payeco.android.plugin.PayecoCameraActivity"
+            android:screenOrientation="portrait" />
+        <!-- 插件录像界面 -->
+        <activity
+            android:name="com.payeco.android.plugin.PayecoVedioActivity"
+            android:process="com.payeco.android.plugin.vedio"
+            android:screenOrientation="landscape" />
+        <!-- 易联2.0 end -->
+        
+        
+    </application>
+    
+	
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 定位 -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    
+    <!-- sms pay 短信代扣权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- bank 卡支付 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- 易联2.0 基础权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	
+    <!-- 易联2.0  照相的权限 -->
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- 易联2.0  录像需要的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+        
+</manifest>

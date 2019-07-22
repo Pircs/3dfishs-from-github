@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Version>
+  <Server>
+    <!-- 发布服务器配置 正式包使用 -->
+    <Publish ftpport="45045" showthirdlogin="1" showmatch ="1" newftp="0" showjbp="1" thirdbtn="1" exchange="1" extrabtn="1" showgame="0" ftp_chunkcount="10" ftp_chunksize="1048576" resftp="119.23.15.209" runftp="119.23.15.209" clientdir="Client" resdir="Res" verdir="Version">
+      <IP port="40056" >119.23.15.209</IP>
+      <FTP dx="2" port="45045">119.23.15.209</FTP>
+    </Publish>
+
+    <!-- 测试服务器配置 测试包使用 -->
+    <Test  ftpport="45045" newftp="0" showmatch ="1" exchange="1" extrabtn="1" showgame="0" ftp_chunkcount="10" ftp_chunksize="1048576"   resftp="119.23.15.209" runftp="119.23.15.209" clientdir="Test/Test_Client" resdir="Test/Test_Res" verdir="Test/Test_Version">
+      <IP port="40056">119.23.15.209</IP>
+      <FTP dx="2" port="45045">119.23.15.209</FTP>
+    </Test>
+
+    <!-- 测试服务器配置 Eidtor使用 -->
+    <Editor ftpport="45045"  resftp="119.23.15.209" runftp="119.23.15.209" clientdir="Test/Test_Client" resdir="Test/Test_Res" verdir="Test/Test_Version">
+      <IP port="40056" >119.23.15.209</IP>
+    </Editor>
+  </Server>
+  <ClientList>
+	  <!--  
+    <Package  type="Android"  xmlext="com.leduo.buyu.three"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.dangle"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.mz"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.leshi"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.wdj"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.egame"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.nearme.gamecenter"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.uc"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.baidu"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.anzhi"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.htc"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.lb"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.chong"></Package>
+    <Package  type="Android"  xmlext="com.cy.mobile.leduobuyu.shouyou"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.huawei"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.shunwang"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.mi"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.anfeng"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.haima"></Package>
+	   -->
+    <Package  type="Android"  xmlext="com.doule.buyu.self"></Package>
+    <Package  type="Windows"  xmlext="com.doule.buyu.self"></Package>
+    
+    <Package  type="IOS"      xmlext="com.doule.buyu.self"></Package>
+    <!--  <Package  type="IOS"      xmlext="com.leduo.buyu.lehaihai"></Package>
+    <Package  type="IOS"      xmlext="com.leduo.buyu.le8"></Package>
+    <Package  type="IOS"      xmlext="com.leduo.buyu.kuaiyong"></Package>
+    <Package  type="IOS"      xmlext="com.leduo.buyu.haima"></Package>
+    <Package  type="IOS"      xmlext="com.leduo.buyu.guopan"></Package>
+    <Package  type="IOS"      xmlext="com.leduo.ldbuyu.dangle"></Package>
+    <Package  type="IOS"      xmlext="com.leduo.buyu.chuyou"></Package>
+    <Package  type="IOS"      xmlext="com.leduo.buyu.51zs"></Package>
+    <Package  type="IOS"      xmlext="com.leduo.buyu.tb"></Package>
+    
+    <Package  type="IOS"      xmlext="com.leduo.buyu3d"></Package>
+    
+    
+    <Package  type="Android"  xmlext="com.leduo.buyu.anqu"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu">.apk</Package>
+    <Package  type="Android"  xmlext="com.games.p2663.channel23"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu">.apk</Package>
+    <Package  type="IOS"      xmlext=""></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.huawei"></Package>
+    <Package  type="Windows"  xmlext=""></Package>
+    
+    <Package  type="Android"  xmlext="com.ljapps.p2663"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.derived">_derived</Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.uc"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.nearme.gamecenter"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.htc"></Package>
+    
+    <Package  type="Android"  xmlext="com.tencent.tmgp.leduobuyu3d"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.mumayi"></Package>
+    -->
+    
+  </ClientList>
+  <Services>http://www.52leduo.com/MobileTerminal/kefu.aspx</Services>
+  <Share>
+    <wx id="wxc347ead5686ce7e1" pwd="c82089f40722b2b799674d0c03a34179"/>
+    <sina id="1792702958" pwd="df3311cff0b3608cf0ba0bb77c0b4f22"/>
+    <qq id="" pwd=""/>
+    <content weburl="http://www.youwei8.com" txt="逗乐捕鱼3D开启您的梦幻之旅" imgurl="https://ios.52leduo.com/share.jpg"/>
+  </Share>
+</Version>

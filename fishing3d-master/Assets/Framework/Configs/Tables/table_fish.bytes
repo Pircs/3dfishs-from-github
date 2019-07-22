@@ -1,0 +1,4 @@
+id	Name	Prefab	路径id	生成概率	游戏动画	死亡动画
+0	小丑鱼	Fish_0	0,1	10	xiaochouyu_move	xiaochouyu_catch
+1	魔鬼鱼	Fish_1	2,3	1	moguiyu_move	moguiyu_catch
+2	鲨鱼	Fish_2	1	1	shayu_move	shayu_catch

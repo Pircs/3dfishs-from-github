@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ipay_account_color_value_1">#ffffff</color>
+    <color name="ipay_account_color_value_2">#ededed</color>
+    <color name="ipay_account_color_value_2_1">#3c4653</color>
+    <color name="ipay_account_color_value_2_2">#303a48</color>
+    <color name="ipay_account_color_value_3">#cdcdcd</color>
+    <color name="ipay_account_color_value_4">#a4a4a4</color>
+    <color name="ipay_account_color_value_5">#767676</color>
+    <color name="ipay_account_color_value_6">#000000</color>
+    <color name="ipay_account_color_value_7">#2cbae7</color>
+    <color name="ipay_account_color_value_7_1">#1096c7</color>
+    <color name="ipay_account_color_value_7_5">#0c6cc5</color>
+    <color name="ipay_account_color_value_8">#eb5353</color>
+    <color name="ipay_account_color_value_9">#18ca20</color>
+    <color name="ipay_account_color_value_9_1">#02ae00</color>
+
+</resources>

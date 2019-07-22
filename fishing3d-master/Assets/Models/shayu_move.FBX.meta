@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: 9bd2bed91d2b8484788f7bfc9db947dd
+timeCreated: 1463118298
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1-T
+    100002: 1-T.Target
+    100004: bone01
+    100006: Bone02
+    100008: bone02
+    100010: bone03
+    100012: bone04
+    100014: bone05
+    100016: bone06
+    100018: bone07
+    100020: bone08
+    100022: bone09
+    100024: bone10
+    100026: bone11
+    100028: bone12
+    100030: bone13
+    100032: bone14
+    100034: bone15
+    100036: bone16
+    100038: bone17
+    100040: bone18
+    100042: bone19
+    100044: bone20
+    100046: bone21
+    100048: bone22
+    100050: bone23
+    100052: bone24
+    100054: bone25
+    100056: bone26
+    100058: bone50
+    100060: Object05
+    100062: Object05 1
+    100064: Object05 2
+    100066: Omni01
+    100068: Omni02
+    100070: Particle View 01
+    100072: Particle View 01 1
+    100074: Particle View 01 2
+    100076: Particle View 01 3
+    100078: Particle View 01 4
+    100080: //RootNode
+    100082: "VR_\u5149\u6E9001"
+    100084: "VR_\u5149\u6E9002"
+    100086: "VR_\u5149\u6E9004"
+    100088: "VR_\u73AF\u5883\u514901"
+    100090: "\u9CA8\u9C7C"
+    100092: "\u9CA8\u9C7C_\u773C\u76AE"
+    400000: 1-T
+    400002: 1-T.Target
+    400004: bone01
+    400006: Bone02
+    400008: bone02
+    400010: bone03
+    400012: bone04
+    400014: bone05
+    400016: bone06
+    400018: bone07
+    400020: bone08
+    400022: bone09
+    400024: bone10
+    400026: bone11
+    400028: bone12
+    400030: bone13
+    400032: bone14
+    400034: bone15
+    400036: bone16
+    400038: bone17
+    400040: bone18
+    400042: bone19
+    400044: bone20
+    400046: bone21
+    400048: bone22
+    400050: bone23
+    400052: bone24
+    400054: bone25
+    400056: bone26
+    400058: bone50
+    400060: Object05
+    400062: Object05 1
+    400064: Object05 2
+    400066: Omni01
+    400068: Omni02
+    400070: Particle View 01
+    400072: Particle View 01 1
+    400074: Particle View 01 2
+    400076: Particle View 01 3
+    400078: Particle View 01 4
+    400080: //RootNode
+    400082: "VR_\u5149\u6E9001"
+    400084: "VR_\u5149\u6E9002"
+    400086: "VR_\u5149\u6E9004"
+    400088: "VR_\u73AF\u5883\u514901"
+    400090: "\u9CA8\u9C7C"
+    400092: "\u9CA8\u9C7C_\u773C\u76AE"
+    2300000: "\u9CA8\u9C7C_\u773C\u76AE"
+    3300000: "\u9CA8\u9C7C_\u773C\u76AE"
+    4300000: "\u9CA8\u9C7C"
+    4300002: "\u9CA8\u9C7C_\u773C\u76AE"
+    7400000: shayu_move
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: "\u9CA8\u9C7C"
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: shayu_move
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1-T
+        weight: 1
+      - path: 1-T.Target
+        weight: 1
+      - path: bone01
+        weight: 1
+      - path: bone01/bone02
+        weight: 1
+      - path: bone01/bone02/bone03
+        weight: 1
+      - path: bone01/bone02/bone03/bone04
+        weight: 1
+      - path: bone01/bone02/bone03/bone04/bone05
+        weight: 1
+      - path: bone01/bone02/bone03/bone04/bone05/bone06
+        weight: 1
+      - path: bone01/bone02/bone03/bone04/bone05/bone06/bone07
+        weight: 1
+      - path: bone01/bone02/bone03/bone04/bone05/bone50
+        weight: 1
+      - path: bone01/bone02/bone03/bone04/bone05/bone50/Bone02
+        weight: 1
+      - path: bone01/bone02/bone03/bone04/bone15
+        weight: 1
+      - path: bone01/bone02/bone03/bone04/bone15/bone16
+        weight: 1
+      - path: bone01/bone02/bone03/bone04/bone22
+        weight: 1
+      - path: bone01/bone02/bone03/bone04/bone22/bone23
+        weight: 1
+      - path: bone01/bone02/bone03/bone17
+        weight: 1
+      - path: bone01/bone02/bone03/bone17/bone18
+        weight: 1
+      - path: bone01/bone08
+        weight: 1
+      - path: bone01/bone08/bone09
+        weight: 1
+      - path: bone01/bone08/bone10
+        weight: 1
+      - path: bone01/bone08/bone10/bone11
+        weight: 1
+      - path: bone01/bone12
+        weight: 1
+      - path: bone01/bone12/bone13
+        weight: 1
+      - path: bone01/bone12/bone13/bone14
+        weight: 1
+      - path: bone01/bone19
+        weight: 1
+      - path: bone01/bone19/bone20
+        weight: 1
+      - path: bone01/bone19/bone20/bone21
+        weight: 1
+      - path: bone01/bone24
+        weight: 1
+      - path: bone01/bone24/bone25
+        weight: 1
+      - path: bone01/bone24/bone25/bone26
+        weight: 1
+      - path: Object05
+        weight: 1
+      - path: Object05 1
+        weight: 1
+      - path: Object05 2
+        weight: 1
+      - path: Omni01
+        weight: 1
+      - path: Omni02
+        weight: 1
+      - path: Particle View 01
+        weight: 1
+      - path: Particle View 01 1
+        weight: 1
+      - path: Particle View 01 2
+        weight: 1
+      - path: Particle View 01 3
+        weight: 1
+      - path: Particle View 01 4
+        weight: 1
+      - path: "VR_\u5149\u6E9001"
+        weight: 1
+      - path: "VR_\u5149\u6E9002"
+        weight: 1
+      - path: "VR_\u5149\u6E9004"
+        weight: 1
+      - path: "VR_\u73AF\u5883\u514901"
+        weight: 1
+      - path: "\u9CA8\u9C7C"
+        weight: 1
+      - path: "\u9CA8\u9C7C_\u773C\u76AE"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

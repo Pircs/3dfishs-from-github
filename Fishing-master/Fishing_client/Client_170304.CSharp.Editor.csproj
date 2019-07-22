@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{72F7DE6E-039B-33B2-7DC1-FA7BDF0B1371}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.3.5f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Metro.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Metro.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="FreeImageNET">
+      <HintPath>Assets\Editor\FreeImageNET.dll</HintPath>
+    </Reference>
+    <Reference Include="MyTexResize">
+      <HintPath>Assets\Editor\MyTexResize.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets\Plugins\LitJson.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Client_170304.CSharp.csproj">
+      <Project>{F9EA49B1-71E4-86DA-E4AC-B3013267CEA9}</Project>
+      <Name>Client_170304.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Editor\BuildHelper.cs" />
+    <Compile Include="Assets\Editor\Exporter.cs" />
+    <Compile Include="Assets\Editor\ExporterTools.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\ActiveAnimationEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\BMFontReader.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\ComponentSelector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\EventDelegateDrawer.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\EventDelegateEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\FreeType.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIContextMenu.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIEditorExtensions.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIHandles.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIHelp.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIJson.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUIMenu.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUISettings.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUISnap.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\PropertyBindingEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\PropertyReferenceDrawer.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\SpriteSelector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenAlphaEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenColorEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenFOVEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenHeightEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenPositionEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenRotationEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenScaleEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenTransformEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenVolumeEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\TweenWidthEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIAnchorEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIBasicSpriteEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonColorEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonKeysEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonMessageEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICameraEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICameraTool.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIDragObjectEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIEventTriggerEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIFontInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIFontMaker.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIForwardEventsEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIGridEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIInputEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIKeyNavigationEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UILabelInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UILocalizeEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPanelTool.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPlayAnimationEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIPrefabTool.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIProgressBarEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIRectEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIRootEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIScrollBarEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIScrollViewEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISliderEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISnapshotPointEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIStretchEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITableEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITextureInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITexturePacker.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIToggleInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UITweenerEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIWrapContentEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\ExportSetting\Setting_Publish.xml" />
+    <None Include="Assets\ExportSetting\Setting_Test.xml" />
+    <None Include="Assets\NGUI\ReadMe - 3.8.0.txt" />
+    <None Include="Assets\NGUI\ReadMe - 3.8.2.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\res\color\ipay_account_btn_disable.xml" />
+    <None Include="Assets\Plugins\Android\res\color\ipay_account_btn_normal.xml" />
+    <None Include="Assets\Plugins\Android\res\color\ipay_account_btn_pressed.xml" />
+    <None Include="Assets\Plugins\Android\res\color\ipay_account_common_btn_disable.xml" />
+    <None Include="Assets\Plugins\Android\res\color\ipay_account_common_btn_normal.xml" />
+    <None Include="Assets\Plugins\Android\res\color\ipay_account_common_btn_pressed.xml" />
+    <None Include="Assets\Plugins\Android\res\color\ipay_common_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\color\ipay_common_btn_disable.xml" />
+    <None Include="Assets\Plugins\Android\res\color\ipay_common_btn_normal.xml" />
+    <None Include="Assets\Plugins\Android\res\color\ipay_common_btn_pressed.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_btnenable.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_keyboard_btn_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_keyboard_red_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_plugin_btnleft_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_plugin_btnright_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_plugin_editbg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_plugin_progressbar.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_plugin_spinner_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_radiu_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_stand_btnselector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable-hdpi\payeco_stand_digtselector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_account_btn_bg_color.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_account_checkbox_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_account_common_btn_bg_color.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_account_common_btn_text_color.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_account_ui_back_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_border_style.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_btn_bank_card_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_btn_bg_left_back.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_btn_bg_orange.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_btn_bg_orange2.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_checkbox_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_common_btn_bg_color.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_common_btn_text_color.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_common_checkbox_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_common_radio_btn_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_fillet_bg_color_7.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_fillet_border_color_8_2.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_list_item_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_list_item_selector_white.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_list_widget_item_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_listview_item_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_loading.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_oneclick_confrim_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_oneclick_dialog_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_oneclick_input_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_oneclickpay_bg_clear_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_btn_bg_left_back.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_checkbox_style.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_collect_layout_state_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_confrim_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_dialog_textbtn_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_edittext_clear_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_edittext_tip_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_frame_body_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_link_textbtn_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_listitem_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_listview_divider.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_loading.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_shape_progress_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_textbtn_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_openid_title_imagebutton_bg.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_sms_btn_back_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_sms_btn_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_sms_tab_shape_corner.xml" />
+    <None Include="Assets\Plugins\Android\res\drawable\ipay_ui_back_selector.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_account_common_input_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_account_login_h.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_account_regist_modify_password.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_account_ui_common_tip_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_account_ui_title_bar_activity.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_account_webview_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_common_webview_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_layout_common_alert_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_layout_common_single_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_layout_common_single_dialog_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_loading_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_oneclick_common_bank_info_collect_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_oneclick_common_bank_info_show_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_oneclick_common_line_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_oneclick_common_tip_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_oneclick_common_web_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_oneclickpay_layout_date_view.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_oneclickpay_layout_input_card_info.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_oneclickpay_layout_input_card_no.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_oneclickpay_layout_input_verificode.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_account_listitem_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_account_listview_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_activity_layout_bindphone.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_activity_layout_common.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_activity_layout_login.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_activity_layout_register.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_activity_layout_setting.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_activity_layout_setting_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_base_activity_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_common_collect_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_common_dialog_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_common_web_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_dialog_bind_phone.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_dialog_title_bar.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_openid_loading_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_sms_dialog_error_tips.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_sms_dialog_notify_success.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_sms_dialog_pay.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_sub_game_pay_common_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_sub_game_pay_title_bar.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_sub_game_pay_v.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_account_bind_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_account_bind_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_bank_card_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_bank_card_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_charge_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_charge_type_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_common_tip_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_list_widget.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_modify_password_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_pay_hub_iapppay_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_pay_hub_layout_h.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_pay_hub_layout_v.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_pay_hub_mini_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_pay_type_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_select_amount_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_select_amount_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_service_center_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_small_password_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_small_value_layout.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_text_item.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_title_bar_activity.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_title_bar_mini.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\ipay_ui_title_bar_normal.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\payeco_plugin_credit_keyboard.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\payeco_plugin_credit_keyboard_land.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\payeco_plugin_hxkeyboard.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\payeco_plugin_hxkeyboard_land.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\payeco_plugin_keyboard.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\payeco_plugin_keyboard_land.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\payeco_plugin_record.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\payeco_plugin_spinner_itme.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\payeco_plugin_vedio.xml" />
+    <None Include="Assets\Plugins\Android\res\layout\payeco_plugin_wait_dialog.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_account_colors.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_account_dimens.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_colors.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_dimens.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_oneclick_styles.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_openid_colors.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_openid_dimens.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_openid_strings.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_openid_styles.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_sms_styles.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_strings.xml" />
+    <None Include="Assets\Plugins\Android\res\values\ipay_styles.xml" />
+    <None Include="Assets\Plugins\Android\res\values\payeco_colors.xml" />
+    <None Include="Assets\Plugins\Android\res\values\payeco_dimens.xml" />
+    <None Include="Assets\Plugins\Android\res\values\payeco_strings.xml" />
+    <None Include="Assets\Plugins\Android\res\values\payeco_styles.xml" />
+    <None Include="Assets\Resources\ExtraRes\UI\Image\Font\ExpLevel_Font.fnt" />
+    <None Include="Assets\Resources\ExtraRes\UI\Image\Font\HeadWindLeveLabelNum.fnt" />
+    <None Include="Assets\Resources\ExtraRes\UI\Image\Font\Head_VipLevel_Font.fnt" />
+    <None Include="Assets\Resources\ExtraRes\UI\Image\Font\Score2_Font.fnt" />
+    <None Include="Assets\Resources\ExtraRes\UI\Image\Font\ShopNum_Font.fnt" />
+    <None Include="Assets\Resources\ExtraRes\UI\Image\Font\Upgrade_Font.fnt" />
+    <None Include="Assets\Resources\ExtraRes\UI\Image\FriendsSys\Friend_Num_Font.fnt" />
+    <None Include="Assets\Resources\GameRes\ForestDance\Textures\ForestDance_Font1.fnt" />
+    <None Include="Assets\Resources\GameRes\ForestDance\Textures\ForestDance_Font2.fnt" />
+    <None Include="Assets\Resources\GameRes\Niuniu\Image\Niuniu_Font1.fnt" />
+    <None Include="Assets\Resources\GameRes\Niuniu\Image\Niuniu_Font2.fnt" />
+    <None Include="Assets\Resources\GameRes\Niuniu\Image\Niuniu_Font3.fnt" />
+    <None Include="Assets\Resources\GameRes\Niuniu\Image\Niuniu_Font4.fnt" />
+    <None Include="Assets\Resources\GameRes\Niuniu\Image\Niuniu_Font5.fnt" />
+    <None Include="Assets\Resources\GlobalRes\LocalSetting\channel_setting.xml" />
+    <None Include="Assets\Resources\HallRes\Image\UI\ContestContent_RankNum.fnt" />
+    <None Include="Assets\Resources\HallRes\Image\UI\Contest_Rank_Num.fnt" />
+    <None Include="Assets\Resources\HallRes\Image\UI\Contest_Rank_Num_1.fnt" />
+    <None Include="Assets\Resources\HallRes\Image\UI\Contest_Rank_Num_2.fnt" />
+    <None Include="Assets\Resources\HallRes\Image\UI\Match_Name_Font.fnt" />
+    <None Include="Assets\Resources\SceneRes\Prefab\UI\Skill\skill.fnt" />
+    <None Include="Assets\Resources\SceneRes\Prefab\UI\VIPFont\VIP_Level_Font.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Chest\ChestReward.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Doublehit\Doublehit_Font\DoubleHit_1.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Doublehit\Doublehit_Font\DoubleHit_2.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Doublehit\Doublehit_Font\DoubleHit_3.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Doublehit\Doublehit_Font\DoubleHit_4.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Gold\EffectLabel.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Gold\GoldEffectLabel.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Launcher\LauncherFont\BulletConsume_Font.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Launcher\LauncherFont\Golden_Font.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Launcher\LauncherFont\Progress_Font.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Launcher\LauncherFont\Score_Font.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\LotteryDraw\Lottery_Font1.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\LotteryDraw\Lottery_Font2.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\LotteryDraw\Lottery_Font3.fnt" />
+    <None Include="Assets\Resources\SceneRes\Textures\UI\Wonderful\Wonderful_Num_Font.fnt" />
+    <None Include="Assets\Shader\Background.shader" />
+    <None Include="Assets\Shader\FishAddTex.shader" />
+    <None Include="Assets\Shader\FishBlendColor.shader" />
+    <None Include="Assets\Shader\FishBlendTex.shader" />
+    <None Include="Assets\Shader\FishDissolve.shader" />
+    <None Include="Assets\Shader\FishSimple.shader" />
+    <None Include="Assets\Shader\UIGray.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>

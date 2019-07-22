@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: e0f4780ac8ba858438c73114238f40d0
+timeCreated: 1461668838
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bone01
+    100002: bone02
+    100004: bone03
+    100006: bone04
+    100008: bone05
+    100010: bone06
+    100012: bone07
+    100014: bone08
+    100016: bone09
+    100018: bone10
+    100020: bone11
+    100022: bone12
+    100024: bone13
+    100026: bone14
+    100028: bone16
+    100030: bone17
+    100032: bone18
+    100034: bone19
+    100036: bone20
+    100038: bone21
+    100040: bone22
+    100042: bone23
+    100044: bone24
+    100046: bone25
+    100048: Camera01
+    100050: Camera01.Target
+    100052: Dummy01
+    100054: Object05
+    100056: Omni01
+    100058: Particle View 01
+    100060: Particle View 01 1
+    100062: Particle View 01 2
+    100064: Particle View 01 3
+    100066: Particle View 01 4
+    100068: Particle View 01 5
+    100070: Particle View 01 6
+    100072: Particle View 01 7
+    100074: "VR_\u5149\u6E9001"
+    100076: "VR_\u5149\u6E9002"
+    100078: "VR_\u5149\u6E9003"
+    100080: "VR_\u5149\u6E9004"
+    100082: "VR_\u5149\u6E9005"
+    100084: "VR_\u73AF\u5883\u514901"
+    100086: //RootNode
+    100088: xiaochouyu01
+    400000: bone01
+    400002: bone02
+    400004: bone03
+    400006: bone04
+    400008: bone05
+    400010: bone06
+    400012: bone07
+    400014: bone08
+    400016: bone09
+    400018: bone10
+    400020: bone11
+    400022: bone12
+    400024: bone13
+    400026: bone14
+    400028: bone16
+    400030: bone17
+    400032: bone18
+    400034: bone19
+    400036: bone20
+    400038: bone21
+    400040: bone22
+    400042: bone23
+    400044: bone24
+    400046: bone25
+    400048: Camera01
+    400050: Camera01.Target
+    400052: Dummy01
+    400054: Object05
+    400056: Omni01
+    400058: Particle View 01
+    400060: Particle View 01 1
+    400062: Particle View 01 2
+    400064: Particle View 01 3
+    400066: Particle View 01 4
+    400068: Particle View 01 5
+    400070: Particle View 01 6
+    400072: Particle View 01 7
+    400074: "VR_\u5149\u6E9001"
+    400076: "VR_\u5149\u6E9002"
+    400078: "VR_\u5149\u6E9003"
+    400080: "VR_\u5149\u6E9004"
+    400082: "VR_\u5149\u6E9005"
+    400084: "VR_\u73AF\u5883\u514901"
+    400086: //RootNode
+    400088: xiaochouyu01
+    4300000: xiaochouyu01
+    7400000: xiaochouyu_move
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: xiaochouyu01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: xiaochouyu_move
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera01
+        weight: 1
+      - path: Camera01.Target
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy01/bone01
+        weight: 1
+      - path: Dummy01/bone01/bone02
+        weight: 1
+      - path: Dummy01/bone01/bone02/bone03
+        weight: 1
+      - path: Dummy01/bone01/bone02/bone03/bone04
+        weight: 1
+      - path: Dummy01/bone01/bone02/bone03/bone04/bone05
+        weight: 1
+      - path: Dummy01/bone01/bone06
+        weight: 1
+      - path: Dummy01/bone01/bone06/bone07
+        weight: 1
+      - path: Dummy01/bone01/bone06/bone07/bone08
+        weight: 1
+      - path: Dummy01/bone01/bone06/bone07/bone08/bone09
+        weight: 1
+      - path: Dummy01/bone01/bone24
+        weight: 1
+      - path: Dummy01/bone01/bone25
+        weight: 1
+      - path: Dummy01/bone10
+        weight: 1
+      - path: Dummy01/bone10/bone11
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone12
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone12/bone13
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone12/bone13/bone14
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone16
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone16/bone17
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone16/bone17/bone18
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone16/bone17/bone18/bone19
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone20
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone20/bone21
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone20/bone21/bone22
+        weight: 1
+      - path: Dummy01/bone10/bone11/bone20/bone21/bone22/bone23
+        weight: 1
+      - path: Object05
+        weight: 1
+      - path: Omni01
+        weight: 1
+      - path: Particle View 01
+        weight: 1
+      - path: Particle View 01 1
+        weight: 1
+      - path: Particle View 01 2
+        weight: 1
+      - path: Particle View 01 3
+        weight: 1
+      - path: Particle View 01 4
+        weight: 1
+      - path: Particle View 01 5
+        weight: 1
+      - path: Particle View 01 6
+        weight: 1
+      - path: Particle View 01 7
+        weight: 1
+      - path: "VR_\u5149\u6E9001"
+        weight: 1
+      - path: "VR_\u5149\u6E9002"
+        weight: 1
+      - path: "VR_\u5149\u6E9003"
+        weight: 1
+      - path: "VR_\u5149\u6E9004"
+        weight: 1
+      - path: "VR_\u5149\u6E9005"
+        weight: 1
+      - path: "VR_\u73AF\u5883\u514901"
+        weight: 1
+      - path: xiaochouyu01
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

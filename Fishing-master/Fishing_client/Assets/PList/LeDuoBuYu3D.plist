@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+      <dict>
+        <key>assets</key>
+        <array>
+          <dict>
+            <key>kind</key>
+            <string>software-package</string>
+            <key>url</key>
+            <string>CLIENT_URL</string>
+          </dict>
+          <dict>
+            <key>kind</key>
+            <string>display-image</string>
+            <key>needs-shine</key>
+            <true/>
+            <key>url</key>
+            <string>CLIENT_IMG</string>
+          </dict>
+          <dict>
+            <key>kind</key>
+            <string>full-size-image</string>
+            <key>needs-shine</key>
+            <true/>
+            <key>url</key>
+            <string>CLIENT_IMG</string>
+          </dict>
+        </array>
+        <key>metadata</key>
+        <dict>
+          <key>bundle-identifier</key>
+          <string>com.leduo.buyu.self</string>
+          <key>bundle-version</key>
+          <string>CLIENT_VER</string>
+          <key>kind</key>
+          <string>software</string>
+          <key>subtitle</key>
+          <string>乐多捕鱼3D</string>
+          <key>title</key>
+          <string>乐多捕鱼3D</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

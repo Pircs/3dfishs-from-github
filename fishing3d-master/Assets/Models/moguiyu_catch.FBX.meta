@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 876ecf7ef7aff0643b9723a365d236a9
+timeCreated: 1463115849
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1-T
+    100002: 1-T.Target
+    100004: Bone01
+    100006: Bone01(mirrored)
+    100008: Bone02
+    100010: Bone02(mirrored)
+    100012: Bone03
+    100014: Bone03(mirrored)
+    100016: Bone04
+    100018: Bone04(mirrored)
+    100020: Bone05
+    100022: Bone06
+    100024: Bone07
+    100026: Bone08
+    100028: Bone09
+    100030: Bone10
+    100032: Bone11
+    100034: Bone12
+    100036: Bone13
+    100038: Bone14
+    100040: Bone14(mirrored)
+    100042: Bone15
+    100044: Bone15(mirrored)
+    100046: Bone16
+    100048: Bone17
+    100050: Bone18
+    100052: Bone19
+    100054: Dummy01
+    100056: Dummy02
+    100058: moguiyu
+    100060: //RootNode
+    100062: Object05
+    100064: Object05 1
+    100066: Omni01
+    100068: Particle View 01
+    100070: Particle View 01 1
+    100072: Particle View 01 2
+    100074: Particle View 01 3
+    100076: Particle View 01 4
+    100078: Particle View 01 5
+    100080: Particle View 01 6
+    100082: "VR_\u5149\u6E9001"
+    100084: "VR_\u5149\u6E9002"
+    100086: "VR_\u5149\u6E9003"
+    100088: "VR_\u5149\u6E9005"
+    100090: "VR_\u5149\u6E9006"
+    100092: "VR_\u5149\u6E9007"
+    100094: "VR_\u5149\u6E9008"
+    100096: "VR_\u5149\u6E9009"
+    100098: "VR_\u5149\u6E9010"
+    100100: "VR_\u5149\u6E9011"
+    100102: "VR_\u73AF\u5883\u514901"
+    400000: 1-T
+    400002: 1-T.Target
+    400004: Bone01
+    400006: Bone01(mirrored)
+    400008: Bone02
+    400010: Bone02(mirrored)
+    400012: Bone03
+    400014: Bone03(mirrored)
+    400016: Bone04
+    400018: Bone04(mirrored)
+    400020: Bone05
+    400022: Bone06
+    400024: Bone07
+    400026: Bone08
+    400028: Bone09
+    400030: Bone10
+    400032: Bone11
+    400034: Bone12
+    400036: Bone13
+    400038: Bone14
+    400040: Bone14(mirrored)
+    400042: Bone15
+    400044: Bone15(mirrored)
+    400046: Bone16
+    400048: Bone17
+    400050: Bone18
+    400052: Bone19
+    400054: Dummy01
+    400056: Dummy02
+    400058: moguiyu
+    400060: //RootNode
+    400062: Object05
+    400064: Object05 1
+    400066: Omni01
+    400068: Particle View 01
+    400070: Particle View 01 1
+    400072: Particle View 01 2
+    400074: Particle View 01 3
+    400076: Particle View 01 4
+    400078: Particle View 01 5
+    400080: Particle View 01 6
+    400082: "VR_\u5149\u6E9001"
+    400084: "VR_\u5149\u6E9002"
+    400086: "VR_\u5149\u6E9003"
+    400088: "VR_\u5149\u6E9005"
+    400090: "VR_\u5149\u6E9006"
+    400092: "VR_\u5149\u6E9007"
+    400094: "VR_\u5149\u6E9008"
+    400096: "VR_\u5149\u6E9009"
+    400098: "VR_\u5149\u6E9010"
+    400100: "VR_\u5149\u6E9011"
+    400102: "VR_\u73AF\u5883\u514901"
+    4300000: moguiyu
+    7400000: moguiyu_catch
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: moguiyu
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: moguiyu_catch
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 1-T
+        weight: 1
+      - path: 1-T.Target
+        weight: 1
+      - path: Dummy01
+        weight: 1
+      - path: Dummy02
+        weight: 1
+      - path: Dummy02/Bone05
+        weight: 1
+      - path: Dummy02/Bone05/Bone01
+        weight: 1
+      - path: Dummy02/Bone05/Bone01/Bone02
+        weight: 1
+      - path: Dummy02/Bone05/Bone01/Bone02/Bone03
+        weight: 1
+      - path: Dummy02/Bone05/Bone01/Bone02/Bone03/Bone04
+        weight: 1
+      - path: Dummy02/Bone05/Bone01/Bone02/Bone03/Bone04/Bone18
+        weight: 1
+      - path: Dummy02/Bone05/Bone01(mirrored)
+        weight: 1
+      - path: Dummy02/Bone05/Bone01(mirrored)/Bone02(mirrored)
+        weight: 1
+      - path: Dummy02/Bone05/Bone01(mirrored)/Bone02(mirrored)/Bone03(mirrored)
+        weight: 1
+      - path: Dummy02/Bone05/Bone01(mirrored)/Bone02(mirrored)/Bone03(mirrored)/Bone04(mirrored)
+        weight: 1
+      - path: Dummy02/Bone05/Bone01(mirrored)/Bone02(mirrored)/Bone03(mirrored)/Bone04(mirrored)/Bone17
+        weight: 1
+      - path: Dummy02/Bone05/Bone06
+        weight: 1
+      - path: Dummy02/Bone05/Bone06/Bone07
+        weight: 1
+      - path: Dummy02/Bone05/Bone06/Bone07/Bone08
+        weight: 1
+      - path: Dummy02/Bone05/Bone06/Bone07/Bone08/Bone09
+        weight: 1
+      - path: Dummy02/Bone05/Bone06/Bone07/Bone08/Bone09/Bone10
+        weight: 1
+      - path: Dummy02/Bone05/Bone06/Bone07/Bone08/Bone09/Bone10/Bone16
+        weight: 1
+      - path: Dummy02/Bone05/Bone06/Bone11
+        weight: 1
+      - path: Dummy02/Bone05/Bone06/Bone11/Bone12
+        weight: 1
+      - path: Dummy02/Bone05/Bone06/Bone11/Bone12/Bone19
+        weight: 1
+      - path: Dummy02/Bone13
+        weight: 1
+      - path: Dummy02/Bone13/Bone14
+        weight: 1
+      - path: Dummy02/Bone13/Bone14/Bone15
+        weight: 1
+      - path: Dummy02/Bone13/Bone14(mirrored)
+        weight: 1
+      - path: Dummy02/Bone13/Bone14(mirrored)/Bone15(mirrored)
+        weight: 1
+      - path: moguiyu
+        weight: 1
+      - path: Object05
+        weight: 1
+      - path: Object05 1
+        weight: 1
+      - path: Omni01
+        weight: 1
+      - path: Particle View 01
+        weight: 1
+      - path: Particle View 01 1
+        weight: 1
+      - path: Particle View 01 2
+        weight: 1
+      - path: Particle View 01 3
+        weight: 1
+      - path: Particle View 01 4
+        weight: 1
+      - path: Particle View 01 5
+        weight: 1
+      - path: Particle View 01 6
+        weight: 1
+      - path: "VR_\u5149\u6E9001"
+        weight: 1
+      - path: "VR_\u5149\u6E9002"
+        weight: 1
+      - path: "VR_\u5149\u6E9003"
+        weight: 1
+      - path: "VR_\u5149\u6E9005"
+        weight: 1
+      - path: "VR_\u5149\u6E9006"
+        weight: 1
+      - path: "VR_\u5149\u6E9007"
+        weight: 1
+      - path: "VR_\u5149\u6E9008"
+        weight: 1
+      - path: "VR_\u5149\u6E9009"
+        weight: 1
+      - path: "VR_\u5149\u6E9010"
+        weight: 1
+      - path: "VR_\u5149\u6E9011"
+        weight: 1
+      - path: "VR_\u73AF\u5883\u514901"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

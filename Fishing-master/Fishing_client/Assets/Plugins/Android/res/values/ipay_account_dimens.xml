@@ -1,0 +1,28 @@
+<resources>
+
+    <dimen name="ipay_openid_text_size_14">14sp</dimen>
+    <dimen name="ipay_openid_text_size_13">13sp</dimen>
+    <dimen name="ipay_openid_text_size_12">12sp</dimen>
+    <dimen name="ipay_openid_text_size_16">16sp</dimen>
+    
+    <dimen name="ipay_openid_margin_40">40dp</dimen>
+    <dimen name="ipay_openid_margin_15">15dp</dimen>
+    <dimen name="ipay_openid_margin_4">4dp</dimen>
+    <dimen name="ipay_openid_margin_10">10dp</dimen>
+    <dimen name="ipay_openid_margin_7">7dp</dimen>
+    <dimen name="ipay_openid_margin_17">17dp</dimen>
+    <dimen name="ipay_openid_margin_20">20dp</dimen>
+    <dimen name="ipay_openid_margin_19">19dp</dimen>
+    <dimen name="ipay_openid_margin_5">5dp</dimen>
+    <dimen name="ipay_openid_margin_6">6dp</dimen>
+    <dimen name="ipay_openid_margin_9">9dp</dimen>
+    
+    <dimen name="ipay_openid_height_48">48dp</dimen>
+    <dimen name="ipay_openid_height_50">50dp</dimen>
+    <dimen name="ipay_openid_height_38">38dp</dimen>
+    
+    <dimen name="ipay_openid_title_h">50dp</dimen>
+    
+    <dimen name="ipay_openid_title_bar_text_line_margin">1dp</dimen>
+
+</resources>

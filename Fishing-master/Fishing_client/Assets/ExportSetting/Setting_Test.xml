@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Version>
+  <Server>
+    <!-- 发布服务器配置 正式包使用 -->
+    <Publish  ftpport="45045" showmatch ="1" newftp="0" showjbp="1" thirdbtn="1" exchange="1" extrabtn="1" showgame="0" ftp_chunkcount="10" ftp_chunksize="1048576"  resftp="127.0.0.1" runftp="127.0.0.1" clientdir="Client" resdir="Res" verdir="Version">
+      <IP port="40056" >192.168.1.130</IP>
+      <FTP dx="2" port="45045">127.0.0.1</FTP>
+    </Publish>
+
+    <!-- 测试服务器配置 测试包使用 -->
+    <Test ftpport="45045" newftp="0" showthirdlogin="1" showmatch ="1" showjbp="1" thirdbtn="1" exchange="1" extrabtn="1" showgame="1" ftp_chunkcount="10" ftp_chunksize="1048576"  resftp="127.0.0.1"  runftp="127.0.0.1" clientdir="Test/Test_Client" resdir="Test/Test_Res" verdir="Test/Test_Version">
+      <IP port="40056">192.168.1.130</IP>
+      <FTP dx="2" port="45045">127.0.0.1</FTP>
+    </Test>
+
+    <!-- 测试服务器配置 Eidtor使用 -->
+    <Editor resftp="127.0.0.1" runftp="127.0.0.1" clientdir="Test/Test_Client" resdir="Test/Test_Res" verdir="Test/Test_Version">
+      <IP port="40056" >127.0.0.1</IP>
+    </Editor>
+  </Server>
+  <ClientList>
+    
+    <Package  type="Android"  xmlext="com.leduo.buyu.self"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.three"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.uc"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.huawei"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.leshi"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.nearme.gamecenter"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.egame"></Package>
+    <!-- 
+    <Package  type="Windows"  xmlext=""></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.test"></Package>
+    <Package  type="IOS"      xmlext="com.leduo.buyu.test"></Package>
+     
+    
+    
+    <Package  type="IOS"      xmlext=""></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.mi"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.mz"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.three"></Package>
+    <Package  type="Windows"  xmlext=""></Package>
+    <Package  type="Android"  xmlext="com.ljapps.p2663"></Package>
+    
+    <Package  type="Android"  xmlext="com.leduo.buyu.derived">_derived</Package>
+    
+    <Package  type="Android"  xmlext="com.leduo.buyu.dangle"></Package>
+    
+    
+    <Package  type="Android"  xmlext="com.leduo.buyu.htc"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.baidu"></Package>
+    
+    <Package  type="Android"  xmlext="com.tencent.tmgp.leduobuyu3d"></Package>
+    <Package  type="Android"  xmlext="com.leduo.buyu.mumayi"></Package>
+    -->
+    
+  </ClientList>
+  <Services>http://www.52leduo.com/MobileTerminal/kefu.aspx</Services>
+  <Share>
+    <wx id="wxc347ead5686ce7e1" pwd="c82089f40722b2b799674d0c03a34179"/>
+    <sina id="1792702958" pwd="df3311cff0b3608cf0ba0bb77c0b4f22"/>
+    <qq id="" pwd=""/>
+    <content weburl="http://www.52leduo.com" txt="欢迎来到乐多捕鱼3D的游戏世界" imgurl="https://ios.52leduo.com/share.jpg"/>
+  </Share>
+</Version>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<FishRanks>
+    <FishRook TypeID="1">
+        <Info Index="1" UserID="20293" FaceID="2" Gender="1" TitleID="29" Param="50" Name="迪拜家族★上神"/>
+        <Info Index="2" UserID="20301" FaceID="1" Gender="0" TitleID="27" Param="48" Name="迪拜家族捕鱼王"/>
+        <Info Index="3" UserID="20298" FaceID="2" Gender="1" TitleID="2" Param="47" Name="乐乐在线"/>
+        <Info Index="4" UserID="20345" FaceID="0" Gender="0" TitleID="17" Param="45" Name="微笑似年华"/>
+        <Info Index="5" UserID="31866" FaceID="0" Gender="0" TitleID="32" Param="45" Name="辛辛"/>
+        <Info Index="6" UserID="20287" FaceID="0" Gender="0" TitleID="6" Param="45" Name="迪拜家族『帝君』"/>
+        <Info Index="7" UserID="20291" FaceID="1" Gender="1" TitleID="32" Param="45" Name="昵称不合法"/>
+        <Info Index="8" UserID="30986" FaceID="0" Gender="1" TitleID="0" Param="45" Name="用户0XQmXG"/>
+        <Info Index="9" UserID="20297" FaceID="0" Gender="0" TitleID="5" Param="44" Name="金商橘子"/>
+        <Info Index="10" UserID="21076" FaceID="2" Gender="1" TitleID="11" Param="43" Name="冰冰"/>
+        <Info Index="11" UserID="29585" FaceID="4" Gender="1" TitleID="11" Param="42" Name="疯囡子"/>
+        <Info Index="12" UserID="20296" FaceID="2" Gender="1" TitleID="6" Param="40" Name="逗逗金商"/>
+        <Info Index="13" UserID="20184" FaceID="0" Gender="1" TitleID="0" Param="40" Name="迪拜家族暧昧"/>
+        <Info Index="14" UserID="30987" FaceID="0" Gender="1" TitleID="0" Param="40" Name="用户YLM1br"/>
+        <Info Index="15" UserID="30988" FaceID="0" Gender="1" TitleID="0" Param="40" Name="用户m2BeQk"/>
+        <Info Index="16" UserID="18454" FaceID="4" Gender="1" TitleID="2" Param="39" Name="迪拜家族台风"/>
+        <Info Index="17" UserID="20526" FaceID="1" Gender="1" TitleID="31" Param="38" Name="金牌家族小建金商"/>
+        <Info Index="18" UserID="20315" FaceID="3" Gender="1" TitleID="30" Param="38" Name="橘子de媳妇"/>
+        <Info Index="19" UserID="21027" FaceID="0" Gender="0" TitleID="32" Param="37" Name="金牌家族乞丐"/>
+        <Info Index="20" UserID="33010" FaceID="0" Gender="0" TitleID="0" Param="36" Name="周大炮"/>
+    </FishRook>
+    <FishRook TypeID="2">
+        <Info Index="1" UserID="20806" FaceID="3" Gender="1" TitleID="1" Param="399467800" Name="迪拜◎笑笑金商 "/>
+        <Info Index="2" UserID="20880" FaceID="2" Gender="1" TitleID="0" Param="152886838" Name="迪拜家族Q群号↓"/>
+        <Info Index="3" UserID="30988" FaceID="0" Gender="1" TitleID="0" Param="141890000" Name="用户m2BeQk"/>
+        <Info Index="4" UserID="30986" FaceID="0" Gender="1" TitleID="0" Param="139642400" Name="用户0XQmXG"/>
+        <Info Index="5" UserID="20286" FaceID="0" Gender="1" TitleID="0" Param="93142880" Name="3+2=5？"/>
+        <Info Index="6" UserID="16051" FaceID="0" Gender="1" TitleID="0" Param="76405000" Name="ゞ适⒐昰愛ゞ	"/>
+        <Info Index="7" UserID="16066" FaceID="0" Gender="1" TitleID="0" Param="65000123" Name="迪拜家族仙爹."/>
+        <Info Index="8" UserID="20093" FaceID="0" Gender="1" TitleID="0" Param="62187909" Name="迪拜家族疯子"/>
+        <Info Index="9" UserID="21076" FaceID="2" Gender="1" TitleID="11" Param="59684756" Name="冰冰"/>
+        <Info Index="10" UserID="16054" FaceID="0" Gender="1" TitleID="0" Param="50155011" Name="妩茗指的等待	"/>
+        <Info Index="11" UserID="16057" FaceID="0" Gender="1" TitleID="0" Param="45963500" Name="╭刻傦铭心"/>
+        <Info Index="12" UserID="20074" FaceID="1" Gender="1" TitleID="4" Param="44879907" Name="迪拜家族颜值"/>
+        <Info Index="13" UserID="16055" FaceID="0" Gender="1" TitleID="0" Param="41321175" Name="ゞ痛徹杺扉ゞ	"/>
+        <Info Index="14" UserID="20205" FaceID="0" Gender="1" TitleID="0" Param="40645210" Name="游客BiN5ro"/>
+        <Info Index="15" UserID="16034" FaceID="0" Gender="1" TitleID="0" Param="34150210" Name="玙⌒子偕老"/>
+        <Info Index="16" UserID="20110" FaceID="1" Gender="1" TitleID="9" Param="30463181" Name="蘸了屎的臭豆腐"/>
+        <Info Index="17" UserID="16064" FaceID="0" Gender="1" TitleID="0" Param="29180000" Name="陌上烟雨鎐┇"/>
+        <Info Index="18" UserID="16056" FaceID="0" Gender="1" TitleID="0" Param="28810000" Name="蕜乀伤述说微笑"/>
+        <Info Index="19" UserID="16050" FaceID="0" Gender="1" TitleID="0" Param="28545000" Name="桧飛白勺◆鱼	"/>
+        <Info Index="20" UserID="30987" FaceID="0" Gender="1" TitleID="0" Param="28437960" Name="用户YLM1br"/>
+    </FishRook>
+    <FishRook TypeID="3">
+        <Info Index="1" UserID="20293" FaceID="2" Gender="1" TitleID="29" Param="1041" Name="迪拜家族★上神"/>
+        <Info Index="2" UserID="20345" FaceID="0" Gender="0" TitleID="17" Param="1041" Name="微笑似年华"/>
+        <Info Index="3" UserID="20287" FaceID="0" Gender="0" TitleID="6" Param="1041" Name="迪拜家族『帝君』"/>
+        <Info Index="4" UserID="21076" FaceID="2" Gender="1" TitleID="11" Param="1041" Name="冰冰"/>
+        <Info Index="5" UserID="20291" FaceID="1" Gender="1" TitleID="32" Param="1041" Name="昵称不合法"/>
+        <Info Index="6" UserID="20301" FaceID="1" Gender="0" TitleID="27" Param="1021" Name="迪拜家族捕鱼王"/>
+        <Info Index="7" UserID="20297" FaceID="0" Gender="0" TitleID="5" Param="1011" Name="金商橘子"/>
+        <Info Index="8" UserID="20344" FaceID="2" Gender="1" TitleID="11" Param="1001" Name="迪拜家族妖妃 "/>
+        <Info Index="9" UserID="31866" FaceID="0" Gender="0" TitleID="32" Param="991" Name="辛辛"/>
+        <Info Index="10" UserID="20526" FaceID="1" Gender="1" TitleID="31" Param="991" Name="金牌家族小建金商"/>
+        <Info Index="11" UserID="20296" FaceID="2" Gender="1" TitleID="6" Param="991" Name="逗逗金商"/>
+        <Info Index="12" UserID="29585" FaceID="4" Gender="1" TitleID="11" Param="991" Name="疯囡子"/>
+        <Info Index="13" UserID="21027" FaceID="0" Gender="0" TitleID="32" Param="966" Name="金牌家族乞丐"/>
+        <Info Index="14" UserID="33010" FaceID="0" Gender="0" TitleID="0" Param="956" Name="周大炮"/>
+        <Info Index="15" UserID="20315" FaceID="3" Gender="1" TitleID="30" Param="891" Name="橘子de媳妇"/>
+        <Info Index="16" UserID="20321" FaceID="0" Gender="1" TitleID="9" Param="871" Name="逗逗家族～周周"/>
+        <Info Index="17" UserID="21078" FaceID="4" Gender="0" TitleID="4" Param="861" Name="鱼夫"/>
+        <Info Index="18" UserID="20458" FaceID="3" Gender="1" TitleID="0" Param="851" Name="爱爱爱爱死你"/>
+        <Info Index="19" UserID="32123" FaceID="0" Gender="0" TitleID="0" Param="821" Name="用户W3Ihdj"/>
+        <Info Index="20" UserID="30050" FaceID="1" Gender="0" TitleID="15" Param="796" Name="迪拜家族高哥"/>
+    </FishRook>
+    <FishRook TypeID="4">
+        <Info Index="1" UserID="30986" FaceID="0" Gender="1" TitleID="0" Param="5000" Name="用户0XQmXG"/>
+        <Info Index="2" UserID="20293" FaceID="2" Gender="1" TitleID="29" Param="3668" Name="迪拜家族★上神"/>
+        <Info Index="3" UserID="20806" FaceID="3" Gender="1" TitleID="1" Param="3237" Name="迪拜◎笑笑金商 "/>
+        <Info Index="4" UserID="20287" FaceID="0" Gender="0" TitleID="6" Param="3231" Name="迪拜家族『帝君』"/>
+        <Info Index="5" UserID="21076" FaceID="2" Gender="1" TitleID="11" Param="2833" Name="冰冰"/>
+        <Info Index="6" UserID="20320" FaceID="0" Gender="0" TitleID="0" Param="2230" Name="迪拜家族疯子"/>
+        <Info Index="7" UserID="20301" FaceID="1" Gender="0" TitleID="27" Param="1984" Name="迪拜家族捕鱼王"/>
+        <Info Index="8" UserID="31434" FaceID="0" Gender="1" TitleID="0" Param="1500" Name="用户GBupWA"/>
+        <Info Index="9" UserID="20297" FaceID="0" Gender="0" TitleID="5" Param="1492" Name="金商橘子"/>
+        <Info Index="10" UserID="20345" FaceID="0" Gender="0" TitleID="17" Param="1046" Name="微笑似年华"/>
+        <Info Index="11" UserID="30989" FaceID="0" Gender="1" TitleID="0" Param="1000" Name="用户29tL8D"/>
+        <Info Index="12" UserID="30987" FaceID="0" Gender="1" TitleID="0" Param="1000" Name="用户YLM1br"/>
+        <Info Index="13" UserID="30988" FaceID="0" Gender="1" TitleID="0" Param="1000" Name="用户m2BeQk"/>
+        <Info Index="14" UserID="31433" FaceID="0" Gender="1" TitleID="0" Param="1000" Name="用户2sCSmD"/>
+        <Info Index="15" UserID="31435" FaceID="0" Gender="1" TitleID="0" Param="900" Name="用户bffks6"/>
+        <Info Index="16" UserID="29585" FaceID="4" Gender="1" TitleID="11" Param="765" Name="疯囡子"/>
+        <Info Index="17" UserID="20526" FaceID="1" Gender="1" TitleID="31" Param="677" Name="金牌家族小建金商"/>
+        <Info Index="18" UserID="32362" FaceID="0" Gender="0" TitleID="13" Param="585" Name="好好"/>
+        <Info Index="19" UserID="31866" FaceID="0" Gender="0" TitleID="32" Param="579" Name="辛辛"/>
+        <Info Index="20" UserID="31748" FaceID="4" Gender="1" TitleID="27" Param="560" Name="柏格LOVE"/>
+    </FishRook>
+    <FishRook TypeID="5">
+        <Info Index="1" UserID="20293" FaceID="2" Gender="1" TitleID="29" Param="243464" Name="迪拜家族★上神"/>
+        <Info Index="2" UserID="20851" FaceID="4" Gender="1" TitleID="0" Param="204535" Name="小样聚宝盆"/>
+        <Info Index="3" UserID="20344" FaceID="2" Gender="1" TitleID="11" Param="203916" Name="迪拜家族妖妃 "/>
+        <Info Index="4" UserID="20315" FaceID="3" Gender="1" TitleID="30" Param="152438" Name="橘子de媳妇"/>
+        <Info Index="5" UserID="20287" FaceID="0" Gender="0" TitleID="6" Param="89831" Name="迪拜家族『帝君』"/>
+        <Info Index="6" UserID="21012" FaceID="2" Gender="1" TitleID="9" Param="81905" Name="橘子家族幺妹"/>
+        <Info Index="7" UserID="29585" FaceID="4" Gender="1" TitleID="11" Param="66750" Name="疯囡子"/>
+        <Info Index="8" UserID="20296" FaceID="2" Gender="1" TitleID="6" Param="46685" Name="逗逗金商"/>
+        <Info Index="9" UserID="20298" FaceID="2" Gender="1" TitleID="2" Param="31556" Name="乐乐在线"/>
+        <Info Index="10" UserID="20301" FaceID="1" Gender="0" TitleID="27" Param="21088" Name="迪拜家族捕鱼王"/>
+        <Info Index="11" UserID="29646" FaceID="0" Gender="0" TitleID="5" Param="20488" Name="迪拜家族『龙王』"/>
+        <Info Index="12" UserID="20380" FaceID="0" Gender="0" TitleID="9" Param="14303" Name="橘子家族小宇"/>
+        <Info Index="13" UserID="20526" FaceID="1" Gender="1" TitleID="31" Param="11886" Name="金牌家族小建金商"/>
+        <Info Index="14" UserID="21078" FaceID="4" Gender="0" TitleID="4" Param="9478" Name="鱼夫"/>
+        <Info Index="15" UserID="20372" FaceID="0" Gender="0" TitleID="0" Param="8002" Name="橘子家族爱莞"/>
+        <Info Index="16" UserID="20400" FaceID="0" Gender="1" TitleID="0" Param="7493" Name="用户UIQHdG"/>
+        <Info Index="17" UserID="32469" FaceID="0" Gender="1" TitleID="0" Param="6079" Name="用户2SjoG9"/>
+        <Info Index="18" UserID="29700" FaceID="2" Gender="1" TitleID="26" Param="5758" Name="迪拜家族rose"/>
+        <Info Index="19" UserID="20506" FaceID="4" Gender="1" TitleID="0" Param="5075" Name="橘子家族洋洋"/>
+        <Info Index="20" UserID="29981" FaceID="0" Gender="0" TitleID="0" Param="4837" Name="三哥仔"/>
+    </FishRook>
+</FishRanks>

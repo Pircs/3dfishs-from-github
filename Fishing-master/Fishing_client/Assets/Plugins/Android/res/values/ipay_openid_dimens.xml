@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字体大小 -->
+    
+    
+    <dimen name="ipay_openid_text_size_18">9sp</dimen>
+    <dimen name="ipay_openid_text_size_20">10sp</dimen>
+    <dimen name="ipay_openid_text_size_22">11sp</dimen>
+    <dimen name="ipay_openid_text_size_24">12sp</dimen>
+    <dimen name="ipay_openid_text_size_26">13sp</dimen>
+    <dimen name="ipay_openid_text_size_28">14sp</dimen>
+    <dimen name="ipay_openid_text_size_32">16sp</dimen>
+    <dimen name="ipay_openid_text_size_34">17sp</dimen>
+    <dimen name="ipay_openid_text_size_38">19sp</dimen>
+
+    <!-- 边距 -->
+    <dimen name="ipay_openid_line_margin_8">4dip</dimen>
+    <dimen name="ipay_openid_line_margin_6">3dip</dimen>
+    <dimen name="ipay_openid_line_margin_4">2dip</dimen>
+    <dimen name="ipay_openid_line_margin_10">5dip</dimen>
+    <dimen name="ipay_openid_line_margin_12">6dip</dimen>
+    <dimen name="ipay_openid_line_margin_14">7dip</dimen>
+    <dimen name="ipay_openid_line_margin_18">9dip</dimen>
+    <dimen name="ipay_openid_line_margin_34">17dip</dimen>
+    <dimen name="ipay_openid_line_margin_40">20dip</dimen>
+    <dimen name="ipay_openid_line_margin_46">23dip</dimen>
+    <dimen name="ipay_openid_margin_34">34dp</dimen>
+    <dimen name="ipay_openid_margin_30">30dp</dimen>
+    <dimen name="ipay_openid_margin_27">27dp</dimen>
+    <dimen name="ipay_openid_margin_26">26dp</dimen>
+    <dimen name="ipay_openid_margin_22">22dp</dimen>
+    
+    <dimen name="ipay_openid_margin_16">16dp</dimen>
+    
+    <dimen name="ipay_openid_margin_13">13dp</dimen>
+    <dimen name="ipay_openid_margin_12">12dp</dimen>
+    
+   
+    <dimen name="ipay_openid_margin_8">8dp</dimen>
+    
+    
+    
+    <dimen name="ipay_openid_margin_3">3dp</dimen>
+
+    <!-- button 高度 -->
+    <dimen name="ipay_openid_height_30">30dp</dimen>
+    <dimen name="ipay_openid_height_35">35dp</dimen>
+    <dimen name="ipay_openid_height_40">40dp</dimen>
+    <dimen name="ipay_openid_height_45">45dp</dimen>
+    
+    <dimen name="ipay_openid_height_60">60dp</dimen>
+    <dimen name="ipay_openid_height_70">70dp</dimen>
+    <dimen name="ipay_openid_height_80">80dp</dimen>
+    <dimen name="ipay_openid_height_90">90dp</dimen>
+    <dimen name="ipay_openid_divid_line_h">1dp</dimen>
+
+    <!-- 对话框的宽高 -->
+    <dimen name="ipay_openid_dialog_width">1000px</dimen>
+    <dimen name="ipay_openid_dialog_height">800px</dimen>
+
+</resources>
